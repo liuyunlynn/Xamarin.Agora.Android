@@ -6,13 +6,13 @@
     android:layout_height="match_parent">
 
   <Button
-    android:text="User 1"
+    android:text="Video Call"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="20px"
     android:layout_marginRight="20px"
     android:id="@+id/button_user1" />
-  <Button
+  <!--<Button
     android:text="User 2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -20,6 +20,6 @@
     android:layout_marginRight="20px"
     android:layout_below="@+id/button_user1"
     android:layout_marginTop="20px"
-    android:id="@+id/button_user2" />
+    android:id="@+id/button_user2" />-->
     
 </RelativeLayout>
