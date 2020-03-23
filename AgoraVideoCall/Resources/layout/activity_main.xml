@@ -1,17 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20px"
+    android:layout_marginRight="20px"
+    android:id="@+id/userid"/>
+  <Button
+    android:text="Login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20px"
+    android:layout_marginRight="20px"
+    android:layout_below="@+id/userid"
+    android:layout_marginTop="20px"
+    android:id="@+id/login" />
+
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20px"
+    android:layout_marginRight="20px"
+    android:layout_below="@+id/login"
+    android:layout_marginTop="20px"
+        android:id="@+id/callId"/>
   <Button
     android:text="Video Call"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="20px"
     android:layout_marginRight="20px"
-    android:id="@+id/button_user1" />
+    android:layout_below="@+id/callId"
+    android:layout_marginTop="20px"
+    android:id="@+id/call" />
   <!--<Button
     android:text="User 2"
     android:layout_width="match_parent"
